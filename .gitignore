@@ -1,0 +1,45 @@
+# === Rust/Cargo specific ===
+/target/
+**/target/
+
+# Ignore debug and release builds
+debug/
+release/
+
+# Ignore Cargo.lock at the workspace root if you're publishing libraries (optional)
+/Cargo.lock
+
+# === IDE/editor files ===
+
+# VS Code
+.vscode/
+**/.vscode/
+
+# IntelliJ/RustRover
+.idea/
+**/.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+.*.un~
+
+# === OS-generated ===
+.DS_Store
+Thumbs.db
+
+# === Other temporary files ===
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+
+# === By convention ===
+# Optional: ignore compiled
