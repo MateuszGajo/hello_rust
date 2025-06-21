@@ -6,6 +6,8 @@ struct User {
     sign_in_count: u64,
 }
 
+struct ALwaysEqual;
+
 struct Color(i32, i32, i32);
 fn main() {
     println!("Hello, world!");
