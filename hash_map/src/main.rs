@@ -29,8 +29,8 @@ fn main() {
         println!("{scores:?}");
 
         // adding value when not exists
-        scores.entry(String::from("Blue")).or_insert(50);
-        scores.entry(String::from("Red")).or_insert(50);
+    scores.entry(String::from("Blue")).or_insert(50);
+    scores.entry(String::from("Red")).or_insert(50);
            println!("{scores:?}");
         // update a values based on old value
 
