@@ -3,5 +3,16 @@
 version = 4
 
 [[package]]
+name = "add_one"
+version = "0.1.0"
+
+[[package]]
+name = "adder"
+version = "0.1.0"
+dependencies = [
+ "add_one",
+]
+
+[[package]]
 name = "io"
 version = "0.1.0"
